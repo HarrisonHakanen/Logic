@@ -11,7 +11,7 @@ IDE para o Java.\
 Docker para rodar o docker-compose.\
 Node para iniciar o react.
 
-###**Importante:** Para a aplicação "logic-back" se deve configurar a variável de ambiente CHAT_ID o application.properties irá pegar automaticamene.
+### **Importante:** Para a aplicação "logic-back" se deve configurar a variável de ambiente CHAT_ID o application.properties irá pegar automaticamene.
 
 ## 2. Executando a Aplicação
 1)Com o Docker já instalado, através do prompt ir na pasta onde está o "docker-compose.yml" e digitar o código "docker compose up -d" para subir o banco.\
