@@ -15,7 +15,7 @@ import lombok.Data;
 
 @Data
 @Entity
-@Table(name = "conexaoDicomDb")
+@Table(name = "conexaoDicomTbl")
 public class ConexaoDicom {
 	
 	@Id

@@ -13,7 +13,7 @@ import com.logic_back.logic_back.model.ConexaoDicom;
 @Repository
 public interface ConexaoDicomRepository extends JpaRepository<ConexaoDicom,Long> {
 	
-	@Query(value = "SELECT * FROM conexao_dicom_db WHERE ae_title = :aeTitle", nativeQuery = true)
+	@Query(value = "SELECT * FROM conexao_dicom_tbl WHERE ae_title = :aeTitle", nativeQuery = true)
     public List<ConexaoDicom> findByAeTitle(@Param("aeTitle") String aeTitle);
 
 }
