@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  postgres:
+    image: postgres
+    container_name: postgres_container
+    environment: 
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_DB: LogicSolutions
+    ports:
+      - "3432:5432"

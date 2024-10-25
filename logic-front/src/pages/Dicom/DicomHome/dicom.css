@@ -1,0 +1,112 @@
+.tableCell {
+    cursor: pointer;
+}
+
+.tableCell:hover {
+    background-color: #f0f0f0;
+}
+
+
+.dicom-content{
+    border-radius: 100px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.dicom-container{
+    display: flex;
+    padding-bottom: 25px;
+}
+
+.home-button {
+    border: none;
+    padding: 5px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: #eee;
+    background-color: #49a1b8;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: all 500ms ease;
+    
+    box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.25);
+    width: 40%;
+    margin-left: calc(100% - 40%);
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap:10px;
+    align-items: center;
+}
+
+.home-button:hover {
+    cursor: pointer;
+    background-color: #40c3e6;
+}
+
+
+.descricao-modal-style{
+    position:absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 50%;
+    bottom:auto;
+    right: auto;
+    z-index: 1000;
+    background-color:#fff;
+    border-radius: 20px;
+    max-height: 80vh;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    overflow-y: auto;
+  }
+  .descricao-modal-content {
+    
+    max-height: 70vh;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+  }
+  .descricao-modal-header {
+    position: sticky; /* Header fixo no topo */
+    top: 0;
+    background-color: white;
+    z-index: 10;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    border-bottom: #000000;
+    padding: 2%;
+  }
+
+
+.close-descricao-modal{
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    padding: 5px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    vertical-align: middle;
+    border: 1px solid;
+    border-radius: 20px;
+    color: #0366d6;
+    background-color: #fafbfc;
+    border-color: #1b1f2326;
+    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px 0px inset;
+    transition: 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    transition-property: color, background-color, border-color;
+}
+.close-descricao-modal:hover{
+    color: #ffffff;
+    background-color: #58bdd6;
+    border-color: #1b1f2326;
+    box-shadow: rgba(27, 31, 35, 0.1) 0px 1px 0px 0px, rgba(255, 255, 255, 0.03) 0px 1px 0px 0px inset;
+    transition-duration: 0.1s;
+}
