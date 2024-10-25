@@ -21,10 +21,14 @@ Node para iniciar o react.
 ## 3. Melhorias futuras
 Muitas melhorias poderiam ainda ter sido feitas no código, como por exemplo:
 1)Uma camada a mais no "logic-front" para lidar somente com a lógica.\
-2)Um arquivo com os enums dos textos de cada tela para padronizar os textos e evitar erros futuros.\
-3)Testes unitários tanto no React quanto no Java (comecei a fazer no Java, porém não consegui desenvolve-los bem e os removi para evitar possíveis erros).\
-4)Tela de edição das conexões DIXOM existentes.\
-5)Tela de edição de usuário.
+2)Para melhor segurança, utilizar jwt tokens para acessar as páginas e as entidades.\
+3)Implantar um sistema de versionamento de banco de dados como o Liquibase ou o Flyway para otimizar alterações e migrações do banco.\
+4)Um arquivo com os enums dos textos de cada tela para padronizar os textos e evitar erros futuros.\
+5)Testes unitários tanto no React quanto no Java (comecei a fazer no Java, porém não consegui desenvolve-los bem e os removi para evitar possíveis erros).\
+6)Tela de edição das conexões DIXOM existentes.\
+7)Tela de edição de usuário.\
+8)Melhorar o sistema de paginação das conexões DICOM para realizasse uma consulta por página ao invés de toda a consulta de uma única vez.\
+
 
 ## 4. Considerações finais
 Gostaria de expressar a minha gratificação por ter desenvolvido esse projeto e por estar no processo de seleção para a vaga, apesar de ser um projeto 
