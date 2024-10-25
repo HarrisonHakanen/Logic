@@ -8,8 +8,9 @@
 - [5. Considerações finais](#consideracoes-finais)
 
 ## 1. Importante
-Para a aplicação "logic-back" se deve configurar a variável de ambiente CHAT_ID o application.properties irá pegar automaticamene.\
-O React precisa estar rodando na porta 3000 para que o cors no Spring seja liberado.
+Para a aplicação "logic-back" se deve configurar a variável de ambiente CHAT_ID, o application.properties irá pegar automaticamene.\
+
+O projeto "logic-font" precisa estar rodando na porta 3000 para que o cors, pois o projeto "logic-back" libera cors somente para porta 3000.
 
 ## 2. Requisitos
 IDE para o Java.\
