@@ -11,6 +11,8 @@ IDE para o Java.\
 Docker para rodar o docker-compose.\
 Node para iniciar o react.
 
+Para o java se deve configurar a variável de ambiente CHAT_ID o application.properties irá pegar automaticamene.
+
 ## 2. Executando a Aplicação
 1)Com o Docker já instalado, através do prompt ir na pasta onde está o "docker-compose.yml" e digitar o código "docker compose up -d" para subir o banco.\
 2)Com a IDE de sua preferência iniciar o projeto "java-back" ele está configurado na versão 17 do java e na versão 3.3.5 do Spring Boot.\
