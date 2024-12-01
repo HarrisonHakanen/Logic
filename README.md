@@ -32,8 +32,3 @@ Muitas melhorias poderiam ainda ter sido feitas no código, como por exemplo:
 6)Tela de edição das conexões DIXOM existentes.\
 7)Tela de edição de usuário.\
 8)Melhorar o sistema de paginação das conexões DICOM para realizasse uma consulta por página ao invés de toda a consulta de uma única vez.\
-
-
-## 5. Considerações finais
-Gostaria de expressar a minha gratificação por ter desenvolvido esse projeto e por estar no processo de seleção para a vaga, apesar de ser um projeto 
-aparentemente simples, me senti desafiado e foi muito bom ter esse desafio como experiência, agradeço novamente a oportunidade.
